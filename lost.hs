@@ -1,6 +1,6 @@
 lost :: Integer -> [Integer]
 --lost 0 = []
-lost n = [x | x <- [1..n]]
+lost n = [x | x <- [n..1]]
 
 
 main = print (lost 5)

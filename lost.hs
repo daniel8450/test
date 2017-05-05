@@ -5,7 +5,7 @@ som n = n * som (n-1)
 
 toast :: Integer -> Integer
 toast 0 = 0
-toast n = n + 1
+toast n = n - 1
 
 lost :: Integer -> [Integer]
 lost 0 = []

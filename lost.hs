@@ -1,5 +1,5 @@
-sum :: Integer -> Integer
-sum n = n + sum(n-1)
+Main.sum :: Integer -> Integer
+Main.sum n = n + sum(n-1)
 
 
 

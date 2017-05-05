@@ -3,10 +3,9 @@ som n = n + sum(n-1)
 
 
 
-lost :: Integer -> [Integer]
---lost 0 = []
-lost n = som n : lost (n-1)
+--lost :: Integer -> [Integer]
+--lost n = 
 
 
-main = print (lost 5)
+main = print (som 5)
 

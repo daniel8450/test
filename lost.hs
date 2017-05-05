@@ -4,9 +4,9 @@ som n = n + som (n-1)
 
 
 
---lost :: Integer -> [Integer]
---lost n = 
+lost :: Integer -> [Integer]
+lost n = som n : lost (n-1)
 
 
-main = print (som 5)
+main = print (lost 5)
 

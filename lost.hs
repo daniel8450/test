@@ -3,7 +3,7 @@ som 0 = 0
 som 1 = 1
 som n = n * som (n-1)
 
-toast :: Integer
+toast :: Integer -> Integer
 toast 0 = 0
 toast n = n - (n-1)
 

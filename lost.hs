@@ -19,5 +19,5 @@ okok :: [Integer] -> [Integer]
 okok (x:xs) = xs ++ okok x
 
 
-main = print (okok ([1,2,3],[4,5,6]))
+main = print (okok [1,2,3])
 

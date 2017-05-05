@@ -1,11 +1,11 @@
-Main.sum :: Integer -> Integer
-Main.sum n = n + sum(n-1)
+som :: Integer -> Integer
+som n = n + sum(n-1)
 
 
 
 lost :: Integer -> [Integer]
 --lost 0 = []
-lost n = [x | x <- [Main.sum n]]
+lost n = [x | x <- [som n]]
 
 
 main = print (lost 5)

@@ -16,7 +16,7 @@ lostOk [] = 0
 lostOk (x:xs) = x + 1 + lostOk xs
 
 okok :: [Integer] -> [Integer]
-okok (x:xs) = xs ++ [7]
+okok (x:xs) = xs ++ [x]
 
 
 main = print (okok [1,2,3])

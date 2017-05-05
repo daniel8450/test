@@ -1,6 +1,7 @@
 som :: Integer -> Integer
 som 0 = 0
-som n = n + som (n-1)
+som 1 = 1
+som n = n * som (n-1)
 
 
 

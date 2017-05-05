@@ -12,7 +12,6 @@ toast n = n - toast (n-1)
 
 lost :: Integer -> [Integer]
 lost 0 = []
-lost 1 = 1 : []
 lost n = toast n : lost (n-1)
 
 

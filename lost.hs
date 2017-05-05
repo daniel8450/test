@@ -15,5 +15,5 @@ lost 1 = 1 : []
 lost n = toast n : lost (n-1)
 
 
-main = print (lost 5)
+main = print (toast 5)
 

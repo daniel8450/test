@@ -11,6 +11,9 @@ lost :: Integer -> [Integer]
 lost 0 = []
 lost n = toast n : lost (n-1)
 
+lostOk :: [Integer] -> Integer
+lostOk (x:xs) = x + 1 + lostOk xs
 
-main = print (lost 5)
+
+main = print (lostOk [1,2,3])
 

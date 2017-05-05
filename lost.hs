@@ -6,7 +6,7 @@ som n = n * som (n-1)
 toast :: Integer -> Integer
 toast 0 = 0
 toast n = n - toast (n-1)
-  where n > 0
+    where n > 0
 
 
 

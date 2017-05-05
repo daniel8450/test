@@ -1,6 +1,5 @@
 lost :: Integer -> [Integer]
-lost n = n - x : lost (x)
-   where x = n - 1
+lost n = n - 1 : lost (n)
 
-main = do
-print (lost 5)
+main = print (lost 5)
+
